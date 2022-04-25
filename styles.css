@@ -1,0 +1,73 @@
+body {
+    font-family: Nunito, sans-serif;
+}
+
+#navlinks {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#navi .nav-item {
+    border-left: 2px solid white;
+    border-top-right-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+    transition: all 0.5s ease-in;
+}
+
+#navi .nav-link {
+    font-size: 1.3em;
+    margin: 0 50px;
+    color: white;
+    font-weight: 300;
+    transition: all 0.5s ease-in;
+
+}
+
+#navi .nav-link:hover {
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#navi .nav-item:hover {
+    background-color: #518eff;
+}
+
+#navi {
+    background-color: #3b7fff;
+
+}
+
+#hero {
+    background-color: #9abdff;
+    color: white;
+}
+
+.section1 {
+    color: #3b7fff;
+
+}
+
+.section1 .column1 {
+    color: white;
+    background-color: #9abdff;
+    border-radius: 0.5em;
+
+}
+
+.section2 {
+    background-color: #3b7fff;
+
+}
+
+.section2 .column1 {
+    color: #3b7fff;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.section2 .column2 {
+    color: white;
+}
