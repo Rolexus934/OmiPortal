@@ -89,12 +89,14 @@ h4 {
     padding: 20px 0px;
     font-size: 14px;
     border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 
 .links {
     align-items: center;
     text-align: center;
     display: flex;
+    justify-content: center;
 
 }
 
