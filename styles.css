@@ -67,6 +67,7 @@ body {
     background-color: white;
     border-radius: 0.5em;
 }
+
 .section2 .column2 {
     color: white;
 }
@@ -74,28 +75,37 @@ body {
 footer {
     padding: 20px;
     background-color: #3b7fff;
-    font-size: 14px ;
+    font-size: 14px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #fff;
     padding: 30px 25px;
 }
+
 h4 {
     color: #fff;
     padding: 20px 0px;
     font-size: 14px;
     border-right: 2px solid #fff;
 }
+
 .links {
     align-items: center;
     text-align: center;
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
+
 }
+
 .titulo-final {
     color: #fff;
-text-align: center;
-font-size: 14px;
-padding: 25px 0px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px 0px 0px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
 }
