@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="problem.css" rel="stylesheet">
+    <title>Resuelve Problemas</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow " id="navi">
+        <div class="container ">
+            <a class="navbar-brand" href="../../index.html">OmiPortal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks"
+                aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navlinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../algosindex/algoindex.html">Aprende Algoritmos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../problemtemplate/problem.html">Resuelve Problemas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://omip.buap.mx/home">OMIP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4 title">
+        <section>
+            <div class="row justify-content-center goback">
+                <div class="fs-1">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <a href="../../index.html" class="goback">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                                </svg>
+                                Regresar
+                            </a>
+                        </div>
+                        <div class="col-7 titlesection">
+                            <h2 class="display-3">Resuelve Problemas</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid content mt-4">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 col-11">
+                <section class="content-heading mb-2">
+                    <h1 class="display-1">Nombre Problema</h1>
+                    <p class="fs-3 fw-bold">Por [Nombre]</p>
+                    <p class="fs-3 fw-bold">Dificultad: <span class="ez">Fácil</span></p>
+                    <p class="fs-3 fw-bold">Plataforma: <img class="omegaup" src="../logo-main.svg"></p>
+                </section>
+
+
+                <div class="content-description p-3 rounded-3 shadow-lg">
+                    <h3 class="display-4">Descripción del Problema</h3>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo praesentium deleniti
+                        suscipit vel dolor ab sint! Saepe ipsa nihil aspernatur nisi dicta, quibusdam a aperiam ad
+                        minima explicabo beatae tempore!
+                        Placeat aliquid, aut, porro perspiciatis expedita recusandae officiis laudantium voluptate
+                        soluta quaerat nesciunt doloremque mollitia. Quis, optio aut nemo id quia totam ad esse
+                        voluptatum velit sunt atque cupiditate nihil.</p>
+                    <a role="button" class="btn btn-outline-primary" id="boton" href="#">Problema</a>
+                </div>
+                <div class="content-problems pb-4 my-4">
+                    <h3 class="display-6 pb-2 fw-bold">Algoritmos/Temas necesarios.</h3>
+                    <div class="container-fluid">
+                        <div class="row justify-content-evenly">
+                            <div class="col-md-3">
+                                <a href="../algostemplate/algo.html">
+                                    <div class="rounded-3 p-3 shadow infocard" id="p1">
+                                        <h4 class="fs-4">Tema A</h4>
+                                        <p class="fs-5">Categoría: </p>
+                                        <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                                            eum voluptatibus id mollitia delectus autem aut corporis neque asperiores
+                                            aliquid. Ut, tempora tenetur? Debitis consectetur libero ipsum veniam iure
+                                            voluptates? </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="../algostemplate/algo.html">
+                                    <div class="rounded-3 p-3 shadow infocard " id="p2">
+                                        <h4 class="fs-4">Tema B</h4>
+                                        <p class="fs-5">Categoría: </p>
+                                        <p class="fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                                            inventore beatae necessitatibus dolor assumenda officiis eius repellendus?
+                                            Pariatur, saepe quia, corrupti sit cumque, voluptate quisquam cum odio quas
+                                            asperiores tempora?</p>
+
+
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-md-3">
+                                <a href="../algostemplate/algo.html">
+                                    <div class="rounded-3 p-3 shadow infocard" id="p3">
+                                        <h4 class="fs-4">Tema C</h4>
+                                        <p class="fs-5">Categoría</p>
+                                        <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Deleniti ipsum voluptas molestiae, obcaecati libero error maiores veritatis
+                                            rem? Nam, expedita cum? Harum atque illo, aperiam minima officiis
+                                            dignissimos quasi animi. </p>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-def my-3">
+                    <a class="btn" data-bs-toggle="collapse" href="#hint1" role="button">
+                        <h2 class="display-6 fw-bold  ">Hint 1</h2>
+                    </a>
+                    <p class="fs-5 shadow p-3 rounded-3 collapse" id="hint1">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Dolorum pariatur perferendis quos provident similique, ab voluptates, modi quidem voluptate,
+                        fuga ducimus q uae dignissimos debitis a sapiente recusandae! Incidunt, mollitia magnam?</p>
+                </div>
+                <div class="content-def mb-3">
+                    <a class="btn" data-bs-toggle="collapse" href="#hint2" role="button">
+                        <h2 class="display-6 fw-bold  ">Hint 2</h2>
+                    </a>
+                    <p class="fs-5 shadow p-3 rounded-3 collapse" id="hint2">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Dolorum pariatur perferendis quos provident similique, ab voluptates, modi quidem voluptate,
+                        fuga ducimus q uae dignissimos debitis a sapiente recusandae! Incidunt, mollitia magnam?</p>
+                </div>
+                <div class="content-def mb-3">
+                    <a class="btn" data-bs-toggle="collapse" href="#hint3" role="button">
+                        <h2 class="display-6 fw-bold  ">Hint 3</h2>
+                    </a>
+                    <p class="fs-5 shadow p-3 rounded-3 collapse" id="hint3">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Dolorum pariatur perferendis quos provident similique, ab voluptates, modi quidem voluptate,
+                        fuga ducimus q uae dignissimos debitis a sapiente recusandae! Incidunt, mollitia magnam?</p>
+                </div>
+                <div class="content-img1 row justify-content-center my-5">
+                    <div class="col-lg-6 col-11">
+                        <img src="https://www.luftechnik.com/wp-content/uploads/2021/02/placeholder.png" alt=""
+                            class="img-fluid">
+                    </div>
+                </div>
+                <div class="content-quote">
+                    <figure class="text-end">
+                        <blockquote class="blockquote">
+                            <p>Image Footer.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Fundamental para <cite title="Source Title">entender</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="content-def my-5 pd-3">
+                    <h2 class="display-6 fw-bold  ">Explicación</h2>
+                    <h3 class="fs-3 fw-semibold">Paso 1</h3>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laborum nobis iure
+                        accusantium eveniet earum provident qui repudiandae, quas ratione dolores ipsam, fugit totam
+                        beatae nisi eaque repellat dolorum in.
+                        Libero at quae, obcaecati repellat ab ratione facilis, exercitationem quibusdam dicta itaque et
+                        porro impedit, quidem cumque vitae ullam? Sunt, minima quod! Quo, temporibus porro laboriosam
+                        dolores officiis aperiam adipisci.
+                        Quisquam ratione voluptatem, cum nobis libero laborum possimus soluta, esse ab exercitationem
+                        velit eum fugiat rem deserunt voluptatum. Maxime a eveniet dolores quaerat libero id accusantium
+                        illo aspernatur repellat consequuntur.
+                        Reprehenderit distinctio ea expedita quae necessitatibus eligendi iste obcaecati adipisci optio
+                        facere. Autem animi optio maxime voluptatibus, quibusdam molestias sequi blanditiis saepe culpa
+                        omnis, iusto in architecto totam quod modi?</p>
+                    <h3 class="fs-3 fw-semibold">Paso 2</h3>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus impedit nemo
+                        provident voluptatibus aperiam pariatur cupiditate dolores rerum modi, veritatis magnam sapiente
+                        qui dicta animi id fugiat molestiae tempore fugit!
+                        Ab consectetur molestias ullam obcaecati fuga, nobis distinctio doloribus perferendis a
+                        assumenda qui enim ratione. In, dicta fugit, libero et quos sapiente quisquam ratione
+                        consequuntur saepe eum illum! Deserunt, molestiae.
+                        Adipisci quasi itaque ad sequi, accusantium et. Ex id aliquid rem autem laudantium commodi
+                        dolorum dolore nam, quibusdam aut corporis porro reiciendis veniam totam pariatur sapiente
+                        dolores ducimus incidunt accusamus?</p>
+                    <h3 class="fs-3 fw-semibold">Paso 3</h3>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quos incidunt hic
+                        ullam vel eligendi, architecto qui iste dolorem enim quam quia suscipit sequi in. Accusantium
+                        dolorum incidunt a esse?
+                        Laborum magni, harum quas facilis reiciendis qui. Fugiat libero perferendis autem molestias
+                        facilis, ut necessitatibus, et minus, quod iste minima quo atque deleniti sint magni ex ipsum
+                        corporis officia sequi?</p>
+
+                </div>
+                <div class="content-problems pb-4">
+                    <h3 class="display-6 pb-2 fw-bold">Problemas similares.</h3>
+                    <div class="container-fluid">
+                        <div class="row justify-content-evenly">
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <div class="rounded-3 p-3 shadow problemcard" id="p1">
+                                        <h4 class="fs-4">Problema A</h4>
+                                        <p class="fs-5">Dificultad: Intermedia</p>
+                                        <p class="fs-6">Tags: Búsqueda Binaria, Implementación, </p>
+                                        <p>
+                                            <?xml version="1.0" ?><svg class="codeforces" role="img" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <title />
+                                                <path
+                                                    d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
+                                            </svg>
+                                            Codeforces
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <div class="rounded-3 p-3 shadow problemcard " id="p2">
+                                        <h4 class="fs-4">Problema B</h4>
+                                        <p class="fs-5">Dificultad: Intermedia</p>
+                                        <p class="fs-6">Tags: Búsqueda Binaria, Implementación, </p>
+                                        <p>
+                                            <?xml version="1.0" ?><svg class="codeforces" role="img" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <title />
+                                                <path
+                                                    d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
+                                            </svg>
+                                            Codeforces
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <div class="rounded-3 p-3 shadow problemcard" id="p3">
+                                        <h4 class="fs-4">Problema C</h4>
+                                        <p class="fs-5">Dificultad: Intermedia</p>
+                                        <p class="fs-6">Tags: Búsqueda Binaria, Implementación, </p>
+                                        <p>
+                                            <img class="omegaup" src="../logo-main.svg">
+                                            OmegaUp
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-12">
+        <footer class="text-center text-lg-start text-white">
+            <div class="container-fluid ">
+                <div class="row justify-content-around ">
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-uppercase">Omiportal</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://omip.buap.mx/home" class="text-white"><i
+                                        class="fas fa-book fa-fw fa-sm me-2"></i>Sobre nosotros</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/contact" class="text-white"><i
+                                        class="fas fa-book fa-fw fa-sm me-2"></i>Contacto</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/home" class="text-white"><i
+                                        class="fas fa-user-edit fa-fw fa-sm me-2"></i>FAQ</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/article/about" class="text-white"><i
+                                        class="fas fa-user-edit fa-fw fa-sm me-2"></i>Acerca de</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-uppercase">OmiPuebla</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://omip.buap.mx/home" class="text-white"><i
+                                        class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Página</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/contact" class="text-white"><i
+                                        class="fas fa-backspace fa-fw fa-sm me-2"></i>Contacto</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/moodle/" class="text-white"><i
+                                        class="far fa-file-alt fa-fw fa-sm me-2"></i>Moodle</a>
+                            </li>
+                            <li>
+                                <a href="https://omip.buap.mx/home" class="text-white"><i
+                                        class="far fa-file-alt fa-fw fa-sm me-2"></i>FAO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-uppercase">Enlaces</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://omip.buap.mx/home" class="text-white">Olimpiada Poblana</a>
+                            </li>
+                            <li>
+                                <a href="https://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx"
+                                    class="text-white">Olimpiada Nacional</a>
+                            </li>
+                            <li>
+                                <a href="https://omegaup.com" class="text-white">OmegaUp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-uppercase">Material</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.codeblocks.org" class="text-white"><i
+                                        class="fas fa-at fa-fw fa-sm me-2"></i>Code: Blocks</a>
+                            </li>
+                            <li>
+                                <a href="https://en.cppreference.com/w/" class="text-white"><i
+                                        class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>cppreference</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.164)">
+                © 2022 Copyright: Ingetonics
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

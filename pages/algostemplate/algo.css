@@ -1,0 +1,115 @@
+body {
+    font-family: Nunito, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navlinks {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#navi .nav-item {
+    border-left: 2px solid white;
+    border-top-right-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+    transition: all 0.5s ease-in;
+}
+
+#navi .nav-link {
+    font-size: 1.3em;
+    margin: 0 50px;
+    color: white;
+    font-weight: 300;
+    transition: all 0.5s ease-in;
+
+}
+
+#navi .nav-link:hover {
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#navi .nav-item:hover {
+    background-color: #518eff;
+}
+
+#navi {
+    background-color: #3b7fff;
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #3b7fff;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 25px;
+}
+
+h4 {
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 14px;
+    border-right: 2px solid #fff;
+}
+
+.titlesection h2 {
+    text-align: right;
+}
+
+.title {
+    color: #518eff;
+}
+
+.goback {
+    text-decoration: none;
+}
+
+.content-heading {
+    color: #2d77ff;
+}
+
+.content-description {
+    color: white;
+    background-color: #518eff;
+}
+
+.codeforces {
+    width: 1em;
+}
+
+.omegaup {
+    width: 3em;
+}
+
+.content-def h2 {
+    color: #2d77ff;
+}
+
+.content-problems {
+    color: #2d77ff;
+}
+
+.problemcard {
+    height: 100%;
+    color: white;
+    background-color: rgb(123, 196, 110);
+}
+
+#p2 {
+    background-color: rgb(228, 179, 54);
+}
+
+#p3 {
+    background-color: rgba(255, 0, 0, 0.635);
+}
